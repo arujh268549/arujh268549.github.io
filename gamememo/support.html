@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サポート｜ゲームメモ</title>
+<style>
+  :root {
+    --indigo: #6653E4;
+    --coral: #FF6B5B;
+    --mint: #22C3A6;
+    --amber: #FFA53D;
+    --ink: #22284A;
+    --bg: #F7F7FB;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.8;
+  }
+  header {
+    background: linear-gradient(135deg, var(--indigo), var(--coral));
+    color: white;
+    padding: 48px 24px 40px;
+  }
+  header .eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    opacity: 0.85;
+    margin-bottom: 8px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 800;
+  }
+  main {
+    max-width: 680px;
+    margin: -20px auto 60px;
+    padding: 0 20px;
+  }
+  .card {
+    background: white;
+    border-radius: 20px;
+    padding: 32px 28px;
+    box-shadow: 0 10px 30px rgba(34, 40, 74, 0.08);
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 14px;
+  }
+  p { margin: 0 0 10px; font-size: 15px; color: #3C4160; }
+  p:last-child { margin-bottom: 0; }
+  .faq-item { margin-bottom: 20px; }
+  .faq-item:last-child { margin-bottom: 0; }
+  .faq-q {
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+  .faq-q .badge {
+    color: var(--indigo);
+    flex-shrink: 0;
+  }
+  .contact-btn {
+    display: inline-block;
+    margin-top: 8px;
+    background: var(--indigo);
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  footer {
+    text-align: center;
+    font-size: 13px;
+    color: #A0A4C0;
+    padding-bottom: 40px;
+  }
+  a { color: var(--indigo); }
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">ゲームメモ</div>
+  <h1>サポート</h1>
+</header>
+<main>
+  <div class="card">
+    <h2>お問い合わせ</h2>
+    <p>アプリの不具合報告・ご要望・その他のお問い合わせは、下記のフォームよりご連絡ください。通常2〜3営業日以内に返信いたします。</p>
+    <a class="contact-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSedzKKNPzVG2vgzzhxxdU0g_EgVCRIvxaP_e7lAalBUxBZnGA/viewform?usp=header" target="_blank" rel="noopener">お問い合わせフォームを開く</a>
+  </div>
+
+  <div class="card">
+    <h2>よくある質問</h2>
+
+    <div class="faq-item">
+      <div class="faq-q"><span class="badge">Q.</span>登録したデータはどこに保存されますか？</div>
+      <p>すべてお使いの端末内にのみ保存されます。外部サーバーへの送信は行っていません。機種変更の際は、iCloudバックアップ経由でのみ引き継がれます（アプリ独自の同期機能は現在ありません）。</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q"><span class="badge">Q.</span>ゲーム情報の自動取得がうまく動きません</div>
+      <p>ゲーム名称の一部を短く入力して再検索してみてください。マイナーなタイトルやインディーゲームは、外部データベースに登録されていない場合があり、その際は手入力での登録をお願いします。</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q"><span class="badge">Q.</span>広告を非表示にするには？</div>
+      <p>「設定」タブ内の「広告を非表示にする」から購入いただけます。機種変更後は「購入を復元」からご利用を再開できます。</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q"><span class="badge">Q.</span>誤って記録を削除してしまいました</div>
+      <p>大変申し訳ございませんが、削除した記録を復元する機能は現在ございません。今後のアップデートで対応を検討しております。</p>
+    </div>
+  </div>
+</main>
+<footer>© 2026 ゲームメモ ・ <a href="./privacy.html">プライバシーポリシー</a></footer>
+</body>
+</html>
